@@ -1,0 +1,28 @@
+{
+  "name": "welcome-slack-bot",
+  "version": "1.0.0",
+  "description": "Welcome Bot for Slack",
+  "keywords": [
+    "Node.js",
+    "application"
+  ],
+  "author": {
+    "name": "Ruben Roques",
+    "email": "ramr@example.org"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "slackbots": "^1.1.0",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
